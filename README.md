@@ -17,11 +17,11 @@ Authors
 Acknowledgments
 The Story
 
-The Coffee Shop Inventory Management System was born to help coffee shop owners better manage their operations by tracking inventory, monitoring sales, and generating reports. As a developer passionate about both technology and coffee culture, I wanted to create a solution that could alleviate the common struggles of stock mismanagement and untracked sales.
+The Coffee Shop Inventory Management System was born to help owners better manage their operations by tracking inventory, monitoring sales, and generating reports. As a developer passionate about technology and coffee culture, I wanted to create a solution to alleviate the common struggles of stock mismanagement and untracked sales.
 
 Initially, I envisioned this project as a simple order management tool. However, after further research and discussions with small business owners, it evolved into a full-fledged system for inventory tracking, sales reporting, and business insights.
 
-The project was designed with the goal of being simple to use while still offering powerful features like analytics, real-time updates, and user authentication.
+The project was designed to be simple to use while still offering powerful features like analytics, real-time updates, and user authentication.
 
 Getting Started
 Access the platform at:
@@ -30,6 +30,7 @@ https://coffee-management-system-a3a0d.web.app/
 To get started, sign up with your email or use your GitHub account for authentication.
 
 Local Setup Instructions:
+![Uploading image.png…]()
 
 Clone the repository:
 
