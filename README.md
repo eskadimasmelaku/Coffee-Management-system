@@ -62,6 +62,7 @@ npm start
 11. Access the system on localhost:3000 via a browser.
 ### **Screenshots**
 ### **Dashboard View**
+![MVP-portfolio-Coffee-Management-system](./images/coffee.PNG)
 
 ### **Features**
 ### **User Authentication**
@@ -86,27 +87,30 @@ npm start
 *Deployment: Hosted on AWS EC2 with Nginx for load balancing.
 ### **API Endpoints**
 Inventory Management:
-
--GET /inventory: Retrieve all inventory items.
--POST /inventory: Add a new inventory item.
--PUT /inventory/:id: Update an existing item.
--DELETE /inventory/:id: Remove an item from inventory.
+1. GET /inventory: Retrieve all inventory items.
+2. POST /inventory: Add a new inventory item.
+3. PUT /inventory/:id: Update an existing item.
+4. DELETE /inventory/:id: Remove an item from inventory.
 Sales Tracking:
 
--GET /sales: Get a list of all sales.
--POST /sales: Record a new sale.
--GET /sales/:id: Get details of a specific sale.
+1. GET /sales: Get a list of all sales.
+2. POST /sales: Record a new sale.
+3. GET /sales/:id: Get details of a specific sale.
 User Authentication:
 
--POST /auth/login: Login with GitHub OAuth.
--POST /auth/logout: Logout from the system.
+1. POST /auth/login: Login with GitHub OAuth.
+2. POST /auth/logout: Logout from the system.
 ### **Future Enhancements**
 Mobile Application: Develop a mobile app to allow shop owners to manage inventory and sales on the go.
 Predictive Analytics: Use machine learning to predict inventory shortages based on sales trends.
 Payment Gateway: Integrate with Stripe or PayPal to manage sales transactions within the system.
 Multilingual Support: Add support for multiple languages to cater to a global user base.
-### **Authors**
-Eskadimas Melaku – LinkedIn https://www.linkedin.com/in/eskadimas-melaku-eyuas/
+## **Authors**
+- **Eskadimas Melaku** – [LinkedIn](https://www.linkedin.com/in/eskadimas-melaku-eyuas/)
+
+## **Acknowledgments**
+A huge thank you to the coffee shop owners who provided their valuable feedback and insights during the planning phase.
+Special thanks to my peers and mentors who helped in testing and improving the system throughout the development cycle.
 
 
 
