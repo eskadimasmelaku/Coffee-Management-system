@@ -1,89 +1,117 @@
-# Coffee-Management-system
-A web-based platform designed to simplify and optimize the operations of coffee shops through efficient inventory and sales management.
+# Coffee Shop Inventory Management System
 
-Table of Contents
-The Story
-Getting Started
-Screenshots
-Features
-User Authentication
-Inventory Management
-Sales Tracking
-Reporting & Analytics
-Built With
-API
-Future Enhancements
-Authors
-Acknowledgments
-The Story
+*A web-based platform designed to simplify and optimize the operations of coffee shops through efficient inventory and sales management.*
 
-The Coffee Shop Inventory Management System was born to help owners better manage their operations by tracking inventory, monitoring sales, and generating reports. As a developer passionate about technology and coffee culture, I wanted to create a solution to alleviate the common struggles of stock mismanagement and untracked sales.
+---
 
-Initially, I envisioned this project as a simple order management tool. However, after further research and discussions with small business owners, it evolved into a full-fledged system for inventory tracking, sales reporting, and business insights.
+## **Table of Contents**
+- [Introduction](#introduction)
+- [The Story](#the-story)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Features](#features)
+  - [User Authentication](#user-authentication)
+  - [Inventory Management](#inventory-management)
+  - [Sales Tracking](#sales-tracking)
+  - [Reporting & Analytics](#reporting--analytics)
+- [Built With](#built-with)
+- [API Endpoints](#api-endpoints)
+- [Future Enhancements](#future-enhancements)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-The project was designed to be simple to use while still offering powerful features like analytics, real-time updates, and user authentication.
+---
 
-Getting Started
-Access the platform at:
-https://coffee-management-system-a3a0d.web.app/
+## **Introduction**
+The Coffee Shop Inventory Management System helps coffee shop owners manage their inventory, track sales, and generate analytics reports. This project simplifies daily tasks and improves efficiency in small coffee shops by providing a simple and user-friendly interface.
 
-To get started, sign up with your email or use your GitHub account for authentication.
+---
 
-Local Setup Instructions:
-![Uploading image.png…]()
+## **The Story**
+This project was inspired by the growing need for small businesses, especially coffee shops, to better organize their operations. The idea was conceived after realizing how crucial inventory management is for these shops. The system started as a basic order and inventory tracker but evolved into a more robust solution, with user authentication, reporting features, and sales analytics.
 
-Clone the repository:
+---
 
-bash
-Copy code
-git clone https://github.com/eskadimasmelaku/MVP-portfolio-Coffee-Management-system.git
-Install dependencies for the backend and frontend:
+## **Getting Started**
 
-bash
-Copy code
-cd backend
-npm install
+### **Prerequisites**
+To run this project locally, you will need:
+- Node.js (v14+)
+- MongoDB (or MongoDB Atlas for cloud storage)
+- Git
+
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/eskadimasmelaku/MVP-portfolio-Coffee-Management-system.git
+
+### **Navigate to the project directory:**
+2. cd coffee-inventory-management
+3. Install dependencies for both frontend and backend:
+4. cd backend
+5. npm install
+6. cd ../frontend
+7. npm install
+8. Start the backend server:
+9. npm start
+10. Start the frontend:
 cd ../frontend
-npm install
-Run the development server:
-
-bash
-Copy code
 npm start
-Screenshots
+11. Access the system on localhost:3000 via a browser.
+### **Screenshots**
+### **Dashboard View**
+
+### **Features**
+### **User Authentication**
+  -OAuth login via GitHub for secure authentication.
+  -JWT token-based authentication to ensure user sessions are secure.
+### **Inventory Management**
+-Easily add, edit, or delete products from the inventory.
+-Automatically updates stock levels after sales.
+-Alerts for low-stock items, ensuring that the shop is always stocked.
+### **Sales Tracking**
+-Add customer orders with product details and calculate total sales in real-time.
+-Option to view previous sales history and track order progress.
+### **Reporting & Analytics**
+-Visualize sales data through charts and graphs.
+-Generate daily, weekly, and monthly sales reports.
+-Export reports as CSV files.
+### **Built With**
+*Frontend: React.js, Redux for state management, Material-UI for design components.
+*Backend: Node.js with Express for RESTful API development.
+*Database: MongoDB for storing inventory, sales, and user information.
+*Authentication: JSON Web Token (JWT) and GitHub OAuth.
+*Deployment: Hosted on AWS EC2 with Nginx for load balancing.
+### **API Endpoints**
+Inventory Management:
+
+-GET /inventory: Retrieve all inventory items.
+-POST /inventory: Add a new inventory item.
+-PUT /inventory/:id: Update an existing item.
+-DELETE /inventory/:id: Remove an item from inventory.
+Sales Tracking:
+
+-GET /sales: Get a list of all sales.
+-POST /sales: Record a new sale.
+-GET /sales/:id: Get details of a specific sale.
+User Authentication:
+
+-POST /auth/login: Login with GitHub OAuth.
+-POST /auth/logout: Logout from the system.
+### **Future Enhancements**
+Mobile Application: Develop a mobile app to allow shop owners to manage inventory and sales on the go.
+Predictive Analytics: Use machine learning to predict inventory shortages based on sales trends.
+Payment Gateway: Integrate with Stripe or PayPal to manage sales transactions within the system.
+Multilingual Support: Add support for multiple languages to cater to a global user base.
+### **Authors**
+Eskadimas Melaku – LinkedIn https://www.linkedin.com/in/eskadimas-melaku-eyuas/
 
 
-Features
-User Authentication
-The system supports user login and registration using both email and GitHub OAuth. All user data is securely stored, and access control is implemented using JSON Web Tokens (JWT).
 
-Inventory Management
-Users can add new inventory items, update stock levels, and set reorder alerts.
-The system automatically tracks items and warns users when stock is running low.
-Sales Tracking
-A complete order management system allows users to log customer orders and update order statuses in real-time.
-Integration with a payment gateway to handle transactions (future enhancement).
-Reporting & Analytics
-Generate daily, weekly, and monthly sales reports.
-Visualize inventory levels and predict future stock needs based on sales trends.
-Export reports to CSV for easy sharing and record-keeping.
-Built With
-Frontend: React.js, Redux for state management, Material UI for consistent styling
-Backend: Node.js with Express for API routes
-Database: MongoDB for storing inventory, user, and sales data
-Authentication: JSON Web Token (JWT) and GitHub OAuth
-Deployment: AWS EC2, Nginx for server management
-API
-The system is built with a RESTful API that supports the following endpoints:
 
-GET /inventory: Fetch all inventory items
-POST /inventory: Add a new item to the inventory
-PUT /inventory/:id: Update the quantity of an item
-DELETE /inventory/:id: Remove an item from inventory
-GET /sales: Get sales reports for a specified time range
-Future Enhancements
-Machine Learning Integration: Predict future sales trends based on historical data and provide inventory recommendations.
-Mobile App: Create a native mobile app for easier access to inventory management on the go.
-Payment Integration: Allow users to process payments directly through the platform using popular payment gateways like Stripe or PayPal.
-Authors
-Eskadimas Melaku – LinkedIn
+
+
+
+
