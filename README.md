@@ -2,20 +2,20 @@
 A web-based platform designed to simplify and optimize the operations of coffee shops through efficient inventory and sales management.
 
 Table of Contents
-    The Story
-    Getting Started
-    Screenshots
-    Features
-    User Authentication
-    Inventory Management
-    Sales Tracking
-    Reporting & Analytics
-    Built With
-    API
-    Future Enhancements
-    Authors
-    Acknowledgments
-    The Story
+The Story
+Getting Started
+Screenshots
+Features
+User Authentication
+Inventory Management
+Sales Tracking
+Reporting & Analytics
+Built With
+API
+Future Enhancements
+Authors
+Acknowledgments
+The Story
 
 The Coffee Shop Inventory Management System was born to help coffee shop owners better manage their operations by tracking inventory, monitoring sales, and generating reports. As a developer passionate about both technology and coffee culture, I wanted to create a solution that could alleviate the common struggles of stock mismanagement and untracked sales.
 
